@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="28ec-711c-d87f-3aeb" name="Warhammer 40,000 8th Edition: Astradus" revision="83" battleScribeVersion="2.01" authorName="SD-47" authorContact="@sd-47" authorUrl="http://astradus.appspot.com/#/repo/astradus" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4ef1-b081-63ab-18f0" name="Warhammer 40,000 8th Edition: Astradus" revision="84" battleScribeVersion="2.01" authorName="SD-47" authorContact="@sd-47" authorUrl="http://astradus.appspot.com/#/repo/astradus" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
