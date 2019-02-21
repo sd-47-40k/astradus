@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b8fe-8d38-37ec-90e8" name="Imperium - Dark Angels" book="Codex: Dark Angels" revision="83" battleScribeVersion="2.01" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b8fe-8d38-37ec-90e8" name="Imperium - Dark Angels" book="Codex: Dark Angels" revision="84" battleScribeVersion="2.01" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks>
@@ -2298,6 +2298,14 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
+    </entryLink>
+    <entryLink id="d5d4-e3ba-b20a-2680" name="Interrogator-Chaplain Barbatos" hidden="false" targetId="9a42-018b-39c9-1db5" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -27148,7 +27156,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b1b4-5bd3-702b-975f" name="New EntryLink" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
+        <entryLink id="b1b4-5bd3-702b-975f" name="Frag &amp; Krak grenades" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -27191,12 +27199,54 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="bd0f-dead-595c-4089" name="The Passive Aggressor" hidden="false" targetId="a5cc-c9f7-add9-3623" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7953-2af3-d22e-dd2a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13a3-2048-da1f-ee10" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="pts" costTypeId="points" value="80.0"/>
         <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="a5cc-c9f7-add9-3623" name="The Passive Aggressor" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b1d9-0b08-b264-105f" name="The Passive Aggressor - Boltgun" hidden="false" targetId="f95d-8965-d5d0-f99b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cb24-37f8-b800-ec0b" name="The Passive Aggressor - Plasma gun, Standard" hidden="false" targetId="8ffc-2cae-1557-8d4e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b250-494d-89f3-a86b" name="The Passive Aggressor - Plasma gun, Supercharged" hidden="false" targetId="fe3f-044d-d750-d31a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -29475,7 +29525,7 @@
         <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value=""/>
       </characteristics>
     </profile>
-    <profile id="fe3f-044d-d750-d31a" name="The Passive Aggresor - Plasma gun, Supercharged" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+    <profile id="fe3f-044d-d750-d31a" name="The Passive Aggressor - Plasma gun, Supercharged" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
