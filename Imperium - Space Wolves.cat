@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="24b6-2b46-0063-2867" name="Imperium - Space Wolves" book="Codex: Space Wolves" page="Pure Wolfy Disappointment, now with Chapter Approved Disappointment! Yay!" revision="69" battleScribeVersion="2.01" authorName="CrusherJoe, updating original work done by Penguin20000" authorContact="Gitter: @CrusherJoe" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="24b6-2b46-0063-2867" name="Imperium - Space Wolves" book="Codex: Space Wolves" page="Pure Wolfy Disappointment, now with Chapter Approved Disappointment! Yay!" revision="70" battleScribeVersion="2.01" authorName="CrusherJoe, updating original work done by Penguin20000" authorContact="Gitter: @CrusherJoe" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -660,7 +660,7 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="e822-2d69-b81c-cd0e" name="New EntryLink" hidden="false" targetId="044a-7c10-852f-bee3" type="selectionEntry">
+    <entryLink id="e822-2d69-b81c-cd0e" name="Krom Dragongaze" hidden="false" targetId="044a-7c10-852f-bee3" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1461,6 +1461,50 @@
       <modifiers/>
       <constraints/>
       <categoryLinks/>
+    </entryLink>
+    <entryLink id="e169-d0ae-9998-11e2" name="Grognar Stormstrider" hidden="false" targetId="3df5-f254-7c5f-f53a" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="597c-338f-58ca-aa13" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="adfd-c95d-4a9e-14db" name="Cavalry" hidden="false" targetId="ad01-caec-17d9-cb8d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e6f1-a039-51fb-6626" name="Space Wolves" hidden="false" targetId="f093-e031-3131-7b82" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ed8c-66d6-fe88-0fb7" name="Warlord" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e2c9-f2cf-dce7-f5be" name="Wolf Lord" hidden="false" targetId="d4da-9e6e-8a6c-4892" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -29703,7 +29747,11 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
