@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" book="" revision="78" battleScribeVersion="2.01" authorName="Mad-Spy" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" book="" revision="79" battleScribeVersion="2.01" authorName="Mad-Spy" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="77fd-f3de-18b4-fe06" name="Despoilers of the Galaxy" hidden="false">
@@ -22066,7 +22066,7 @@ If your summoning roll included any doubles, your character then suffers a morta
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f6dd-eb53-0b00-6cf7" type="equalTo"/>
+                <condition field="selections" scope="0c24-dafe-0dd8-6505" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f6dd-eb53-0b00-6cf7" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
