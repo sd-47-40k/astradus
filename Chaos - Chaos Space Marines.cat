@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" book="" revision="77" battleScribeVersion="2.01" authorName="Mad-Spy" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" book="" revision="78" battleScribeVersion="2.01" authorName="Mad-Spy" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="77fd-f3de-18b4-fe06" name="Despoilers of the Galaxy" hidden="false">
@@ -22020,14 +22020,6 @@ If your summoning roll included any doubles, your character then suffers a morta
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="c5c4-455c-4920-95e1" name="Warlord Traits" hidden="false" targetId="b34c-6c4b-d22c-25b5" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="5954-cc4e-c79e-c646" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -22049,7 +22041,10 @@ If your summoning roll included any doubles, your character then suffers a morta
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8c1-5388-af17-0e1b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06d5-080c-7418-e4ec" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="54e9-dc54-2cf8-308e" name="Bolt pistol" hidden="false" targetId="37d3-7098-d596-9948" type="selectionEntry">
@@ -22057,12 +22052,31 @@ If your summoning roll included any doubles, your character then suffers a morta
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9163-a193-a76b-aaf3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9799-b511-88da-44ab" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5ec7-7797-6771-ef15" name="First Among Traitors" hidden="false" targetId="0148-a63b-9d50-a1c9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f6dd-eb53-0b00-6cf7" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="123.0"/>
+        <cost name="pts" costTypeId="points" value="115.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
         <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
