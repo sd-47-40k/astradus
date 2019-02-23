@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" book="" revision="80" battleScribeVersion="2.01" authorName="Mad-Spy" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" book="" revision="81" battleScribeVersion="2.01" authorName="Mad-Spy" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="77fd-f3de-18b4-fe06" name="Despoilers of the Galaxy" hidden="false">
@@ -21911,6 +21911,20 @@ If your summoning roll included any doubles, your character then suffers a morta
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="bf5c-20e4-d3e7-c401" name="First Among Traitors" hidden="false" targetId="376e-a98c-ccd4-3248" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="398a-c8da-c8bd-da58" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -22056,22 +22070,6 @@ If your summoning roll included any doubles, your character then suffers a morta
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9163-a193-a76b-aaf3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9799-b511-88da-44ab" type="min"/>
           </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="5ec7-7797-6771-ef15" name="First Among Traitors" hidden="false" targetId="0148-a63b-9d50-a1c9" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="0c24-dafe-0dd8-6505" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ae09-117e-a6fa-316b" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
