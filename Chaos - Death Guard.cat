@@ -13152,6 +13152,24 @@
             <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Plague Weapon."/>
           </characteristics>
         </profile>
+        <profile id="1469-7094-8428-2468" name="Mastercraft Cataphractii Armor" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Models in this unit have a 3+ invulnerable save, but you must halve the result of the dice rolled when determining how far this unit Advances."/>
+          </characteristics>
+        </profile>
+        <profile id="6acc-4c08-c250-4c4c" name="Hard to Kill" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Wound rolls of 1, 2, or 3 made for attacks that target this model always fail, even if the attack has a strength characteristic higher than this model&apos;s Toughness characteristic."/>
+          </characteristics>
+        </profile>
       </profiles>
       <rules/>
       <infoLinks>
@@ -13168,12 +13186,6 @@
           <modifiers/>
         </infoLink>
         <infoLink id="1802-ad2e-b44e-e330" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="c2c2-09a5-4173-1a80" name="Cataphractii Armour" hidden="false" targetId="057a-5462-ce7c-192e" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
