@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="11b5-77b9-31bf-7b74" name="Orks" book="Codex: Orks" revision="41" battleScribeVersion="2.01" authorName="tag8833" authorContact="Github" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="11b5-77b9-31bf-7b74" name="Orks" book="Codex: Orks" revision="43" battleScribeVersion="2.01" authorName="tag8833" authorContact="Github" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="fac1-6afc-e5c9-35c2" name="Dis Is Ours! Zog Off!" book="" hidden="false">
@@ -1393,6 +1393,22 @@
       <categoryLinks/>
     </entryLink>
     <entryLink id="5780-72de-6eaa-79dd" name="Kaptain Bangskrit" hidden="false" targetId="efc2-c730-1324-d533" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="7601-c9df-9b20-224e" name="Grubslag" hidden="false" targetId="d6f3-f4b8-0310-4227" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="fad8-3b57-7df2-e4b7" name="Snazer Gob" hidden="false" targetId="5905-bf82-3b20-32dc" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -28532,6 +28548,534 @@
       <costs>
         <cost name="pts" costTypeId="points" value="145.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d6f3-f4b8-0310-4227" name="Grubslag" book="Astradus" page="38" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c94b-0030-82bb-1273" name="Grubslag" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="5&quot;"/>
+            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="3+"/>
+            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
+            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="5"/>
+            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="4"/>
+            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="4"/>
+            <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="3"/>
+            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="6"/>
+            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="6+"/>
+          </characteristics>
+        </profile>
+        <profile id="5a11-02c8-24ce-1668" name="Psyker" hidden="false" profileTypeId="bc97-dea9-9e88-bb7d" profileTypeName="Psyker">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5afb-9914-904b-d3b3" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="da96-304a-7719-5147" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="b5ac-9c20-5d5a-6f9b" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="da96-304a-7719-5147" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="69d7-b45e-00a2-7e46" value="2">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="da96-304a-7719-5147" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Cast" characteristicTypeId="5afb-9914-904b-d3b3" value="1"/>
+            <characteristic name="Deny" characteristicTypeId="b5ac-9c20-5d5a-6f9b" value="1"/>
+            <characteristic name="Powers Known" characteristicTypeId="69d7-b45e-00a2-7e46" value="1"/>
+            <characteristic name="Other" characteristicTypeId="c2e2-f115-0003-5d7b" value="See Waaagh! Energy"/>
+          </characteristics>
+        </profile>
+        <profile id="d354-aa6d-7785-11ae" name="Waaagh! Energy" book="Codex: Orks" page="88" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Add 1 to any Psychic test rolls made for this model for every 10 friendly ORK models excluding gretchin within 10&quot; of it when the roll is made, to a maximum of +3.  However, if result of the test is 12+, this model immediately suffers Perils of the Warp."/>
+          </characteristics>
+        </profile>
+        <profile id="e301-d746-4229-43cd" name="Impervious" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="This model regains 1 Wound at the start of each of your turns."/>
+          </characteristics>
+        </profile>
+        <profile id="3bc7-27d3-b74b-e3bd" name="Resilient" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Roll a D6 each time this model loses a wound, roll a D6. On a 5+, it does not lose that wound."/>
+          </characteristics>
+        </profile>
+        <profile id="3670-7b67-924a-b249" name="Strike and Fade" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="After this model has fought in the Fight phase, it can immediately pile in D3+3&quot; in any direction, not just toward the closest enemy model."/>
+          </characteristics>
+        </profile>
+        <profile id="edb7-e5f4-b869-0fcd" name="Swift Strike" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="You can always choose this model to fight first in the fight phase even if it did not charge. If the enemy has units that have charged, or that have a similar ability, alternate choosing units to fight with, starting with the player whose turn is taking place."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9721-1e35-0415-775f" name="New InfoLink" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2a3a-228c-279f-6add" name="New InfoLink" hidden="false" targetId="ad32-a248-a392-3d4a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b341-aaab-bda1-8116" name="New InfoLink" hidden="false" targetId="5821-6c45-8572-7e0e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8aea-8ee7-39eb-c0a0" name="Dakka Dakka Dakka" hidden="false" targetId="52cc-983f-0b7b-683a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="57d2-6787-a5a6-c211" name="New CategoryLink" hidden="false" targetId="ef18-746a-369f-43a4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fdb8-0fda-130c-df73" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="edf9-2a1c-b926-7873" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5058-a016-d821-5013" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="95ce-9f54-a06e-8396" name="New CategoryLink" hidden="false" targetId="1c58-037f-7b58-1223" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8552-d75d-b651-1835" name="New CategoryLink" hidden="false" targetId="2ab6-8d0f-494d-38e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cab8-c64c-31da-5915" name="New CategoryLink" hidden="false" targetId="e480-8b6a-32d0-53cc" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bc05-f128-8c2a-68b7" name="Weirdboy Staff" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0855-e313-2eea-6304" name="Weirdboy Staff" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+                <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
+                <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-1"/>
+                <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="D3"/>
+                <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="-"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ad-6df4-fdf1-0f78" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2961-b1d9-6615-7831" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="adfc-0324-3267-426d" name="Warphead (1 CP)" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="2860-943c-9bcf-92a6" name="Warphead (1 CP)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Use this Strategem before the battle begins.  Select a WEIRDBOY model knows 1 additional psychic power from the Power of the Waaagh! discipline and can attempt to manifest 1 additional psychich power in each of your Psychic phases."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="67e7-9385-aa73-28cb" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2f13-9cdf-eb24-8d52" name="Shiney Gubbinz" hidden="false" targetId="04b0-dab2-123b-df51" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1aa7-cffb-6701-6d1f" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="06ce-f2e2-0f62-7d81" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="87.0"/>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5905-bf82-3b20-32dc" name="Snazer Gob" book="Astradus" page="70" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="7cd1-a3fa-b220-c8b6" name="Big Mek" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="5&quot;"/>
+            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="3+"/>
+            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="5+"/>
+            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="5"/>
+            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="4"/>
+            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="4"/>
+            <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="3"/>
+            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="7"/>
+            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="47d0-2f6f-7e56-b4cc" name="Sundering Shots" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Each wound roll of 6+ made for this model&apos;s ranged attacks inflicts 1 mortal wound on the target in addition to any normal damage."/>
+          </characteristics>
+        </profile>
+        <profile id="ee2b-8279-0e23-fa48" name="Directed Fire" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Re-roll all hit rolls of 1 in the Shooting phase for friendly DEATHSKULLS units within 6&quot; of this model."/>
+          </characteristics>
+        </profile>
+        <profile id="0154-84f4-58f4-88b6" name="Hard to Kill" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Wound rolls of 1, 2, or 3 made for attacks that target this model always fail, even if the attack has a Strength characteristic higher than this model&apos;s Toughness characteristic."/>
+          </characteristics>
+        </profile>
+        <profile id="4010-6d0e-7f97-05d7" name="Paranoid Git" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="When firing Overwatch, attacks from this model hit on an unmodified roll of a 5 or a 6."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7272-e138-cf19-bbc2" name="&apos;Ere We Go!" hidden="false" targetId="de72-9941-3d27-44e9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c128-8fea-1dff-97fd" name="New InfoLink" hidden="false" targetId="ad32-a248-a392-3d4a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b5bb-5bd9-e27d-16c6" name="New InfoLink" hidden="false" targetId="0a24-5217-fb9c-c81c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8878-d5d3-e490-ed0d" name="Dakka Dakka Dakka" hidden="false" targetId="52cc-983f-0b7b-683a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f22d-b0c5-7a54-6d6f" name="New CategoryLink" hidden="false" targetId="0a26-a35d-81bb-13ac" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0f06-f2fc-8cad-6e89" name="New CategoryLink" hidden="false" targetId="ef18-746a-369f-43a4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5fe4-665d-c02f-e778" name="New CategoryLink" hidden="false" targetId="2ab6-8d0f-494d-38e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e5e4-1bd7-c9a9-d9cf" name="New CategoryLink" hidden="false" targetId="1c58-037f-7b58-1223" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6aa5-0c72-e1cc-70d3" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a050-3ea3-663a-f412" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="9972-2649-e39a-f7ae" name="Stikkbombs" hidden="false" targetId="6df7-0ee7-7e6d-b182" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="47ae-99c9-ecd4-793c" name="Grot Oiler" hidden="false" targetId="9459-87f3-a9a1-6840" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc33-e4d0-7365-acc9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9318-7921-7c89-0faa" name="Warlord" hidden="false" targetId="33f6-60da-7b70-5fee" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5247-6843-ec0f-29c6" name="Shokk Attack Gun" hidden="false" targetId="fe4b-833c-f74e-cce7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35a4-0c6c-3b65-777d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1af-7ee6-f083-9656" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9969-17db-d204-589f" name="Shiney Gubbinz" hidden="false" targetId="04b0-dab2-123b-df51" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1c62-b291-1e63-4a7b" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3aef-ec1d-ec26-be22" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dde9-bbcf-dca0-32f2" name="Stratagem: Field Commander" hidden="false" targetId="d043-3847-e963-fb5d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="47bf-3a7e-3d24-5af2" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d4fe-3357-12ab-f464" name="Kunnin but Brutal" hidden="false" targetId="5bce-ed03-5f6c-6f5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5905-bf82-3b20-32dc" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="33f6-60da-7b70-5fee" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="5905-bf82-3b20-32dc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d86-965d-f2b0-7454" type="min"/>
+            <constraint field="selections" scope="5905-bf82-3b20-32dc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8d9-9a1c-2630-9cb2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4f44-9616-92ad-8390" name="The Fixer Uppa" hidden="false" targetId="6f8a-2270-2bc4-6c50" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28e1-bb57-9ea1-dc0a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b342-f0ee-384a-7bfb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="80.0"/>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
