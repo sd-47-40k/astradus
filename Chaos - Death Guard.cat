@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard" book="Codex: Death Guard, Index: Chaos" revision="59" battleScribeVersion="2.01" authorName="BSData team" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard" book="Codex: Death Guard, Index: Chaos" revision="60" battleScribeVersion="2.01" authorName="BSData team" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="f7c7-963e-3fda-16f4" name="Plague Weapon" hidden="false">
@@ -753,6 +753,14 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
+    </entryLink>
+    <entryLink id="c04d-41b8-c130-8a61" name="Docoetu Semoueri" hidden="false" targetId="ee00-cc7d-6449-e5a2" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -13108,6 +13116,196 @@
       <costs>
         <cost name="pts" costTypeId="points" value="200.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="9.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee00-cc7d-6449-e5a2" name="Docoetu Semoueri" page="" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="60ab-3e04-880e-0866" name="Docoetu Semoueri" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="6&quot;"/>
+            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="2+"/>
+            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="2+"/>
+            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="4"/>
+            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="6"/>
+            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="6"/>
+            <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="4"/>
+            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="9"/>
+            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="ae61-6aec-3407-ca7e" name="Plaguereaper" book="" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+            <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
+            <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-3"/>
+            <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="3"/>
+            <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410" value="Plague Weapon."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3c93-e4e8-d7dd-a429" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5219-eb68-6e15-3b3c" name="Teleport Strike" hidden="false" targetId="51dc-2e9c-f739-4584" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1802-ad2e-b44e-e330" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c2c2-09a5-4173-1a80" name="Cataphractii Armour" hidden="false" targetId="057a-5462-ce7c-192e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="39ea-c52a-d394-b036" name="Nurgle&apos;s Gift" hidden="false" targetId="c1eb-0be8-7b52-a516" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="438b-1208-608d-7947" name="Fugaris&apos; Helm" hidden="false" targetId="b256-2216-3bb0-c7d0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c878-4128-4b02-26f0" name="Arch-Contaminator" hidden="false" targetId="7b62-4576-6ae3-ffb1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ee00-cc7d-6449-e5a2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a840-f0b3-abac-6d1c" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="547b-8df1-c6cf-0597" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f606-5919-d886-6838" name="New CategoryLink" hidden="false" targetId="ef18-746a-369f-43a4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="86ab-cdfb-97bc-0a9f" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ba26-d5b3-7bb7-479c" name="New CategoryLink" hidden="false" targetId="36b8-cf23-7648-ece9" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e87d-6fe5-9cd3-9015" name="New CategoryLink" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fb79-8572-e19a-8723" name="New CategoryLink" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="697b-4b63-c74b-3c9b" name="New CategoryLink" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0657-ace0-f1cc-3559" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e85b-3ff5-5786-828d" name="New CategoryLink" hidden="false" targetId="ce71-91a7-35a9-2d68" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c2ea-9c6f-e649-1a5f" name="Warlord" hidden="false" targetId="a840-f0b3-abac-6d1c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="317a-6730-3664-4d22" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5f41-8327-200e-4509" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3a03-3edc-817a-b19e" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="140.0"/>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
