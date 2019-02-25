@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" book="" revision="81" battleScribeVersion="2.01" authorName="Mad-Spy" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="cb54-c035-5759-7697" name="Chaos - Chaos Space Marines" book="" revision="82" battleScribeVersion="2.01" authorName="Mad-Spy" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="77fd-f3de-18b4-fe06" name="Despoilers of the Galaxy" hidden="false">
@@ -1513,6 +1513,14 @@ If your summoning roll included any doubles, your character then suffers a morta
       <categoryLinks/>
     </entryLink>
     <entryLink id="44f4-c65c-aeb3-46c6" name="Kaervek Urrakis" hidden="false" targetId="0c24-dafe-0dd8-6505" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="2f9a-ced3-d920-1d5d" name="Overseer Nakhtmin" hidden="false" targetId="038a-3e7a-391e-9fe2" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -22076,6 +22084,229 @@ If your summoning roll included any doubles, your character then suffers a morta
       <costs>
         <cost name="pts" costTypeId="points" value="115.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="038a-3e7a-391e-9fe2" name="Overseer Nakhtmin" page="0" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c53a-f97a-25a3-6c22" name="Overseer Nakhtmin" hidden="false" profileTypeId="800f-21d0-4387-c943" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="0bdf-a96e-9e38-7779" value="6&quot;"/>
+            <characteristic name="WS" characteristicTypeId="e7f0-1278-0250-df0c" value="2+"/>
+            <characteristic name="BS" characteristicTypeId="381b-eb28-74c3-df5f" value="2+"/>
+            <characteristic name="S" characteristicTypeId="2218-aa3c-265f-2939" value="4"/>
+            <characteristic name="T" characteristicTypeId="9c9f-9774-a358-3a39" value="4"/>
+            <characteristic name="W" characteristicTypeId="f330-5e6e-4110-0978" value="6"/>
+            <characteristic name="A" characteristicTypeId="13fc-b29b-31f2-ab9f" value="5"/>
+            <characteristic name="Ld" characteristicTypeId="00ca-f8b8-876d-b705" value="9"/>
+            <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="7eaa-67e9-4de1-a8bb" name="The Steel of Vultures" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Melee"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+            <characteristic name="S" characteristicTypeId="59b1-319e-ec13-d466" value="+2"/>
+            <characteristic name="AP" characteristicTypeId="75aa-a838-b675-6484" value="-2"/>
+            <characteristic name="D" characteristicTypeId="ae8a-3137-d65b-4ca7" value="1"/>
+            <characteristic name="Abilities" characteristicTypeId="837d-5e63-aeb7-1410"/>
+          </characteristics>
+        </profile>
+        <profile id="3a47-5544-b208-4c76" name="Impetuous" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="You may re-roll failed charge r"/>
+          </characteristics>
+        </profile>
+        <profile id="9094-5873-3d82-9651" name="Swift Strike" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="You can always choose this model to fight first in the Fight phase even if it did not charge. If the enemy has units that have charged, or that have a similar ability, alternate choosing units to fight with, starting with the player whose turn is taking place."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e082-0f32-807e-3efe" name="Death to the False Emperor" hidden="false" targetId="37a4-1d84-4ef0-c4f6" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="62a2-af8b-e08e-57e9" name="Sigil of Corruption" hidden="false" targetId="c237-7aca-a961-6c59" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dbef-e3e8-8d85-dcc1" name="Lord of Chaos" hidden="false" targetId="69a2-f63e-3d27-5c09" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5122-e5a9-755e-e24f" name="Exalted Champion" hidden="false" targetId="462c-fab8-354b-f690" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="038a-3e7a-391e-9fe2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="398a-c8da-c8bd-da58" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a535-6000-77ee-4fa2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="463b-b32a-cba2-7de4" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a86d-3e3d-f7cd-4b7a" name="New CategoryLink" hidden="false" targetId="eb55-bd6b-3e75-d505" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9498-1e1e-edc0-da6f" name="New CategoryLink" hidden="false" targetId="ef18-746a-369f-43a4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3456-9d6a-c5b2-4c88" name="New CategoryLink" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="623f-a8e4-2e0f-0cb9" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3a4a-9b6f-7374-9832" name="New CategoryLink" hidden="false" targetId="b2b6-8e4a-9c74-cc37" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f452-fb3c-d5b8-207a" name="New CategoryLink" hidden="false" targetId="a61a-08c8-c7f7-9f78" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c616-4d5c-810e-caf2" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="daf7-db15-5587-9915" name="Frag &amp; Krak grenades" hidden="false" targetId="cddf-945e-1335-e681" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31df-7f2b-4aa7-da6c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d326-c17c-67ff-6075" type="min"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="637f-f25f-fb4d-6cdd" name="Mark of Chaos" hidden="false" targetId="45e8-d3d1-105b-90a3" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6c33-b3e4-ee00-3d08" name="Artefacts of Chaos" hidden="false" targetId="5876-fcc5-8283-1aca" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0ef2-f2e9-9d25-2bf3" name="Warlord" hidden="false" targetId="398a-c8da-c8bd-da58" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6e2-4761-a103-9a6d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1c26-7fac-54e4-c0f5" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c2db-caeb-3f5f-3a99" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4b76-25bf-b702-bf94" name="Plasma pistol" hidden="false" targetId="83be-1ba9-c326-4760" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="713c-38f1-3f73-c1e3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95a9-40f1-ac99-1696" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="102.0"/>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="6.0"/>
         <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
