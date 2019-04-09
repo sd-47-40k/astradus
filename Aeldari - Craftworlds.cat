@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="30b2-6f64-b85e-b4dc" name="Aeldari - Craftworlds" book="Codex: Craftworlds, Index: Xenos 1, Blackstone Fortress, Vigilus Defiant Book 1, Chapter Approved 2018" revision="62" battleScribeVersion="2.01" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="30b2-6f64-b85e-b4dc" name="Aeldari - Craftworlds" book="Codex: Craftworlds, Index: Xenos 1, Blackstone Fortress, Vigilus Defiant Book 1, Chapter Approved 2018" revision="67" battleScribeVersion="2.01" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -580,6 +580,13 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="3d7b-e0f0-9b75-28e9" name="Guardian" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries/>
   <selectionEntries/>
@@ -923,7 +930,7 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
-    <entryLink id="c353-858f-36ed-23d4" name="" hidden="false" targetId="0341-e29a-e0ec-acd4" type="selectionEntry">
+    <entryLink id="c353-858f-36ed-23d4" name="Guardian Defenders" hidden="false" targetId="0341-e29a-e0ec-acd4" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2142,6 +2149,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="ed1a-4bae-3b98-b6f3" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="de48-4337-fff3-9aac" name="Ranger" hidden="false" targetId="d198-8bc5-aa9e-0c7d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8013,6 +8027,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="ab76-161c-fee6-3136" name="Guardian" hidden="false" targetId="3d7b-e0f0-9b75-28e9" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8cb4-c382-d67e-3d08" name="Guardian Heavy Weapons Platform" hidden="false" collective="false" type="upgrade">
@@ -8132,7 +8153,15 @@
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8ff-e968-5d18-254e" type="min"/>
             <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12d9-aefb-0155-6da1" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="6d4d-ff65-88a5-9761" name="Guardian Defenders" hidden="false" targetId="18ed-c84e-77ae-c059" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
@@ -11271,13 +11300,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="82c2-8ca0-28b4-11ad" name="New CategoryLink" hidden="false" targetId="16f7-899b-fe14-7af1" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="9bc9-3477-7428-04e4" name="New CategoryLink" hidden="false" targetId="3117-16d8-fcef-4f56" primary="false">
           <profiles/>
           <rules/>
@@ -14094,6 +14116,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="cb6a-9024-5ef0-5140" name="New CategoryLink" hidden="false" targetId="ae37-74e2-8391-d0f8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c887-c3c2-7c71-31a3" name="Guardian" hidden="false" targetId="3d7b-e0f0-9b75-28e9" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -24156,7 +24185,7 @@
                       <selectionEntryGroups/>
                       <entryLinks/>
                       <costs>
-                        <cost name="pts" costTypeId="points" value="30.0"/>
+                        <cost name="pts" costTypeId="points" value="25.0"/>
                         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                         <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
                       </costs>
@@ -24495,7 +24524,13 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="22af-84bd-9eb3-9c36" value="0.0">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e7e7-14b8-5a42-53c9" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="22af-84bd-9eb3-9c36" type="min"/>
@@ -25628,7 +25663,7 @@
         <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="-1.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="208c-8ed8-19be-39fb" name="Twilight Gloom" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="208c-8ed8-19be-39fb" name="Twilight Gloom" hidden="true" collective="false" type="upgrade">
       <profiles>
         <profile id="d582-162d-7267-6e4c" name="Twilight Gloom" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
@@ -25643,12 +25678,18 @@
       <rules/>
       <infoLinks/>
       <modifiers>
-        <modifier type="set" field="hidden" value="true">
+        <modifier type="set" field="hidden" value="false">
           <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8804-c0f9-e69a-62ba" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8804-c0f9-e69a-62ba" type="greaterThan"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9045-5eb0-134b-2383" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -26459,7 +26500,13 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="350e-2e84-ebc2-e04d" value="0.0">
+          <repeats/>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8341-1d27-065d-635f" type="max"/>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ddb-f8ac-8d9e-105f" type="max"/>
@@ -27600,7 +27647,7 @@
         </modifier>
         <modifier type="increment" field="12f5-9faf-3866-8503" value="1">
           <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d043-3847-e963-fb5d" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d043-3847-e963-fb5d" repeats="1" roundUp="false"/>
           </repeats>
           <conditions/>
           <conditionGroups/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0cc2-3545-6762-a3f7" name="Imperium - Grey Knights" book="Grey Knight 8th Edition Codex 2017" page="" revision="30" battleScribeVersion="2.01" authorName="tekton" authorContact="" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0cc2-3545-6762-a3f7" name="Imperium - Grey Knights" book="Grey Knight 8th Edition Codex 2017" page="" revision="35" battleScribeVersion="2.01" authorName="tekton" authorContact="" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,13 +7,6 @@
   <profileTypes/>
   <categoryEntries>
     <categoryEntry id="31b6-b037-4c7a-f850" name="Grey Knights" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="54c0-6086-0f37-5df7" name="Imperium" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -366,6 +359,30 @@
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" costTypeId="points" value="0.0"/>
         <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="38f4-615d-f35e-da9c" name="Pre Game Enforcement" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6d1c-f18c-548a-506e" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1256,13 +1273,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="ee86-59ff-3235-f824" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="ea4a-dca4-00c7-e7e2" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false">
           <profiles/>
           <rules/>
@@ -1285,6 +1295,20 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="474b-fa13-9d5c-791c" name="New CategoryLink" hidden="false" targetId="ed14-046b-12ea-4e1d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8d44-e359-ca28-cbbd" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9c3b-6a73-4e23-53bf" name="Faction: Adeptus Astartes" hidden="false" targetId="c7b7-edbc-bc14-6238" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2144,13 +2168,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="0dcf-1360-8441-b66c" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="6b5b-7659-20ee-1e3b" name="New CategoryLink" hidden="false" targetId="4c7d-8833-ad8f-9b89" primary="false">
           <profiles/>
           <rules/>
@@ -2194,6 +2211,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="1a6b-a791-e1c0-7c33" name="New CategoryLink" hidden="false" targetId="ef18-746a-369f-43a4" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6684-9ae1-0b79-c774" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3238,13 +3262,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="eebb-eb85-5421-5ff4" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="4bda-1356-d485-55fa" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false">
           <profiles/>
           <rules/>
@@ -3253,6 +3270,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="d29f-4515-230a-8d6b" name="New CategoryLink" hidden="false" targetId="92b9-9c2f-f83a-d6e8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8260-182a-bc91-f229" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4021,13 +4045,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="c60c-364c-e96a-3b39" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="dd80-093b-b141-dff5" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false">
           <profiles/>
           <rules/>
@@ -4036,6 +4053,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="c7de-7899-4550-833c" name="New CategoryLink" hidden="false" targetId="2dee-488a-0b2d-7187" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="692e-0519-8453-ff1c" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4539,13 +4563,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="21ff-fd51-4331-029f" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="c1a3-7e42-4410-e721" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false">
           <profiles/>
           <rules/>
@@ -4575,6 +4592,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="78c7-8eb9-773b-ffde" name="New CategoryLink" hidden="false" targetId="f486-7ad1-1d08-195f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="12f9-6845-6899-d440" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5255,13 +5279,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="2937-bb17-b9c1-cf57" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="0777-c6a3-70b1-8ad8" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false">
           <profiles/>
           <rules/>
@@ -5270,6 +5287,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="13ed-4988-63ba-7682" name="New CategoryLink" hidden="false" targetId="7a99-89d3-27de-98f9" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d7dc-6611-0673-1ba4" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6164,13 +6188,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="e49e-0913-5ee1-b489" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="1cd8-56b0-e973-7f67" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false">
           <profiles/>
           <rules/>
@@ -6214,6 +6231,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="b079-f034-38ce-fd34" name="New CategoryLink" hidden="false" targetId="599b-fb10-960a-a29f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1caf-a0e3-2faa-3609" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7085,13 +7109,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="75ba-b1d4-d311-308f" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="c0fd-6fce-518f-1ec2" name="New CategoryLink" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false">
           <profiles/>
           <rules/>
@@ -7107,6 +7124,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="d128-bece-adef-9720" name="New CategoryLink" hidden="false" targetId="d05b-e3e3-0b58-424a" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8cf7-282c-2f81-9140" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7652,13 +7676,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="8c6a-570f-d12e-6475" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="4c9a-e564-aff3-09f6" name="New CategoryLink" hidden="false" targetId="c78d-e495-4b56-c15b" primary="false">
           <profiles/>
           <rules/>
@@ -7667,6 +7684,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="d6ba-f5a2-1daa-dc4f" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e8f3-071d-461c-0366" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8031,13 +8055,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="eacd-3989-f564-2d63" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="e852-0183-cb9d-3152" name="New CategoryLink" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false">
           <profiles/>
           <rules/>
@@ -8053,6 +8070,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="0b8a-0d75-63f5-d735" name="New CategoryLink" hidden="false" targetId="8897-680b-dbc0-0289" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="977a-dfeb-6012-0422" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8316,13 +8340,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="5d8d-de59-4865-4917" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="6c45-3dab-0149-6c87" name="New CategoryLink" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false">
           <profiles/>
           <rules/>
@@ -8345,6 +8362,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="abe0-d982-1f8a-9a87" name="New CategoryLink" hidden="false" targetId="23bc-575c-6245-d064" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c941-73fb-3206-4c86" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8608,13 +8632,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="a086-5337-ed49-a24b" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="86e0-463e-2a7d-71e1" name="New CategoryLink" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false">
           <profiles/>
           <rules/>
@@ -8637,6 +8654,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="cd99-4fcd-6768-010e" name="New CategoryLink" hidden="false" targetId="34fe-b4c8-64ce-402d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e37d-0d10-1691-38fc" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8904,13 +8928,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="3e63-e3ef-4454-db2d" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="e5b4-a8ad-f1a7-3ca8" name="New CategoryLink" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false">
           <profiles/>
           <rules/>
@@ -8926,6 +8943,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="f97f-b874-095a-0f8a" name="New CategoryLink" hidden="false" targetId="180a-06b2-af90-6ee0" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9ae2-4c13-ba37-e0ce" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9282,13 +9306,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="a485-6dde-6b6b-dc0c" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="9b09-9d3b-02df-bf33" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false">
           <profiles/>
           <rules/>
@@ -9297,6 +9314,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="eb0b-f27f-706e-fef5" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8ed8-c034-214b-c3ba" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9438,13 +9462,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="e873-11b4-dafa-0cd3" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="1b52-391a-912e-d0c7" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false">
           <profiles/>
           <rules/>
@@ -9460,6 +9477,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="198a-ac57-9206-88d5" name="New CategoryLink" hidden="false" targetId="e180-8655-ddcc-69cc" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1c50-e055-98d9-b04f" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9598,13 +9622,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="bd45-8a77-4a54-2730" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="041c-b830-5ce6-6bcf" name="New CategoryLink" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false">
           <profiles/>
           <rules/>
@@ -9620,6 +9637,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="a8e2-589c-1225-877c" name="New CategoryLink" hidden="false" targetId="651b-4132-1395-d3a9" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cd41-c371-8c19-8523" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10073,7 +10097,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="c17b-89e2-61f8-4ed1" name="New InfoLink" hidden="false" targetId="e641-f77e-a5bb-c4fe" type="rule">
+        <infoLink id="c17b-89e2-61f8-4ed1" name="Mindlock" hidden="false" targetId="e641-f77e-a5bb-c4fe" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10084,13 +10108,6 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="ad2a-5da3-b786-1745" name="New CategoryLink" hidden="false" targetId="4c7d-8833-ad8f-9b89" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="012b-cea8-88e5-134a" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10125,6 +10142,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="8b57-8aeb-297d-36ee" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -10143,7 +10167,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="cbc4-3b7e-c0ac-f26e" name="New InfoLink" hidden="false" targetId="866b-39a0-0aec-27a5" type="profile">
+                <infoLink id="cbc4-3b7e-c0ac-f26e" name="Servitor" hidden="false" targetId="866b-39a0-0aec-27a5" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -10153,36 +10177,21 @@
               <modifiers/>
               <constraints/>
               <categoryLinks/>
-              <selectionEntries>
-                <selectionEntry id="8118-c3ba-29e0-f7cb" name="Servo-arm" hidden="false" collective="true" type="upgrade">
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="c240-cf63-09dc-3328" name="Servo-arm" hidden="false" targetId="61ae-3901-0a79-4ec9" type="selectionEntry">
                   <profiles/>
                   <rules/>
-                  <infoLinks>
-                    <infoLink id="0213-4e83-54a5-fd0e" name="New InfoLink" hidden="false" targetId="9112-c49a-ee46-0f81" type="profile">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
+                  <infoLinks/>
                   <modifiers/>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7899-3f87-9d56-ca9a" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abde-03b9-f7c0-b684" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0894-895c-3227-4381" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f51f-3793-b84b-9a0e" type="min"/>
                   </constraints>
                   <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
-                    <cost name="pts" costTypeId="points" value="0.0"/>
-                    <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <selectionEntryGroups/>
-              <entryLinks/>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="5.0"/>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
@@ -10478,13 +10487,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="9c7b-028d-7eff-79ff" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="e00f-2d02-0f4f-646f" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false">
           <profiles/>
           <rules/>
@@ -10514,6 +10516,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="ca77-672f-f294-103d" name="New CategoryLink" hidden="false" targetId="b6fc-4377-2f38-1842" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="60df-d58f-e398-52cb" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11061,6 +11070,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="2f04-db9f-73e6-1433" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -11311,6 +11327,13 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="bd9f-a02b-0aeb-f6ba" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -11385,7 +11408,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="255.0"/>
+        <cost name="pts" costTypeId="points" value="215.0"/>
         <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="18.0"/>
         <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -11507,6 +11530,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="877b-d67e-881d-e258" name="New CategoryLink" hidden="false" targetId="c0db-0846-37b8-cb4f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1a14-2a1d-4a42-0937" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12464,13 +12494,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="b7b9-b37c-1999-ea5d" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="5f32-bfe6-3805-a13a" name="New CategoryLink" hidden="false" targetId="14bb-2de9-464a-22b5" primary="false">
           <profiles/>
           <rules/>
@@ -12479,6 +12502,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="0f54-6c49-a758-6a86" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="581c-409a-636e-680d" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12741,13 +12771,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="1d8e-e120-7396-1994" name="New CategoryLink" hidden="false" targetId="31b6-b037-4c7a-f850" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="20c8-63e1-d98d-df33" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13042,13 +13065,6 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="1b7d-bd77-91f9-7ce8" name="New CategoryLink" hidden="false" targetId="54c0-6086-0f37-5df7" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="3316-b37d-8d5d-fe25" name="New CategoryLink" hidden="false" targetId="c78d-e495-4b56-c15b" primary="false">
           <profiles/>
           <rules/>
@@ -13078,6 +13094,13 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="ba63-9231-8893-de02" name="New CategoryLink" hidden="false" targetId="e691-aad7-d21c-1023" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="568d-f404-1cdd-eb44" name="Faction: Imperium" hidden="false" targetId="84e2-9fa9-ebe6-1d18" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13393,9 +13416,63 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="f29d-b24a-53a8-d559" name="Servo-arms (CODEX)" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9093-955a-a178-2151" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aa6-634b-f482-e8a0" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1838-9063-9d7d-070a" name="Plasma cutter" hidden="false" targetId="d1e1-23e0-2777-dc7b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adb2-cc56-ed30-3853" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ad5-8f25-e3cd-0630" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="13a1-9f6b-d600-4a99" name="Servo-arm" hidden="false" targetId="61ae-3901-0a79-4ec9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72e1-4dcc-9abb-a76d" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42a6-78b8-29ee-5031" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b1b5-b4d7-a90f-33fc" name="Flamer" hidden="false" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="477a-a805-72a9-dbcb" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdfc-fc41-6eab-50a6" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="64c4-e850-9552-d301" name="Bolt Weapon" hidden="false" collective="false" defaultSelectionEntryId="21dd-fc61-02ce-f15b">
+        <selectionEntryGroup id="64c4-e850-9552-d301" name="&quot;Hand&quot; Ranged Weapon" hidden="false" collective="false" defaultSelectionEntryId="21dd-fc61-02ce-f15b">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13425,6 +13502,76 @@
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49cd-7617-c2d1-4875" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="373a-be06-a14b-19c9" name="Plasma pistol" hidden="false" targetId="83be-1ba9-c326-4760" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="024a-69e4-52dd-4246" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="20f9-f156-bfee-a282" name="Grav-pistol" hidden="false" targetId="7b66-cac7-e582-a518" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13e9-f94d-001f-9d4f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="442e-115f-54f3-f33d" name="Storm bolter" hidden="false" targetId="2b03-8d64-3711-f300" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82aa-fb4d-2b44-600b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="53ba-a3b2-1f09-ce15" name="Combi-flamer" hidden="false" targetId="c6a1-e0c4-c1b1-dce1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98be-063d-c29f-38dc" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="957e-1831-e4bf-aef5" name="Combi-grav" hidden="false" targetId="c027-24d6-7a3d-cf12" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8744-26cf-69ae-7378" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="4134-9e22-8b99-7e8c" name="Combi-melta" hidden="false" targetId="c445-e211-f316-5d83" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d2c-2aa5-dc14-7e0c" type="max"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="f5f5-1ba7-69a5-a003" name="Combi-plasma" hidden="false" targetId="fdce-cdf7-21a9-f9ac" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ba3-7243-e5f0-ded8" type="max"/>
               </constraints>
               <categoryLinks/>
             </entryLink>
@@ -13462,17 +13609,6 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="e117-7a78-15a3-01af" name="Power axe" hidden="false" targetId="3292-34e6-f679-d5b9" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f5c-d75c-0976-4d9d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="109d-c51f-0920-3e54" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="d053-d78e-f337-98da" name="Warlord" hidden="false" targetId="2516-dd30-d80e-f79a" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -13497,39 +13633,6 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="33ba-10af-4740-4df6" name="Plasma cutter" hidden="false" targetId="d1e1-23e0-2777-dc7b" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="848b-2794-f410-8bc3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a7d-bc23-92d9-ecf6" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="8aa5-d75a-7382-ab9b" name="Flamer" hidden="false" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d01-bf9f-ce22-2532" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b302-0b47-b042-35ee" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="e8d8-2845-0736-5a09" name="Servo-arm" hidden="false" targetId="61ae-3901-0a79-4ec9" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d96-2611-736f-564b" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41e1-8364-9784-2b11" type="min"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
         <entryLink id="368b-a469-c611-a8c1" name="Is a Custom Character" hidden="false" targetId="43c4-8968-c599-ad5f" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -13539,6 +13642,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="0c5f-78b5-b181-7209" name="Custom Character Selections" hidden="false" targetId="8774-e003-4a50-56c7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7b6d-ec90-0c92-ce1d" name="Melee Weapons" hidden="false" targetId="3c81-b1fa-9ad4-10d1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14267,7 +14378,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1478-e181-f726-511c" name="Sanctic Powers (3)" hidden="false" collective="false" defaultSelectionEntryId="3ff4-6dd1-2c01-bf61">
+    <selectionEntryGroup id="1478-e181-f726-511c" name="Sanctic Powers (3)" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14279,9 +14390,23 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="9f3f-87f4-c26f-412c" value="3">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="38f4-615d-f35e-da9c" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="9f3f-87f4-c26f-412c" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="923f-ee30-3c6c-42e2" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f3f-87f4-c26f-412c" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f3f-87f4-c26f-412c" type="min"/>
         <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9208-5ff6-17ec-02f1" type="max"/>
       </constraints>
       <categoryLinks/>
@@ -14438,18 +14563,9 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="3ff4-6dd1-2c01-bf61" name="* No Psychic Power Selected *" hidden="false" targetId="b5e0-6bf3-54ef-19ce" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2d57-457a-a8b6-9bc7" name="Sanctic Powers (2)" hidden="false" collective="false" defaultSelectionEntryId="434a-f997-0868-6d91">
+    <selectionEntryGroup id="2d57-457a-a8b6-9bc7" name="Sanctic Powers (2)" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14461,9 +14577,23 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="305f-4d8d-e897-38dc" value="2">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="38f4-615d-f35e-da9c" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="305f-4d8d-e897-38dc" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="923f-ee30-3c6c-42e2" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="305f-4d8d-e897-38dc" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="305f-4d8d-e897-38dc" type="min"/>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40c6-7521-2993-4091" type="max"/>
       </constraints>
       <categoryLinks/>
@@ -14620,18 +14750,9 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="434a-f997-0868-6d91" name="* No Psychic Power Selected *" hidden="false" targetId="b5e0-6bf3-54ef-19ce" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8b6c-c5c4-89ac-574e" name="Sanctic Powers (1)" book="" hidden="false" collective="false" defaultSelectionEntryId="9654-1027-5976-992d">
+    <selectionEntryGroup id="8b6c-c5c4-89ac-574e" name="Sanctic Powers (1)" book="" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14643,9 +14764,23 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="increment" field="7cb1-a307-62e0-50a6" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="38f4-615d-f35e-da9c" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="7cb1-a307-62e0-50a6" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="923f-ee30-3c6c-42e2" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cb1-a307-62e0-50a6" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cb1-a307-62e0-50a6" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efa0-16b8-3f25-8c5f" type="max"/>
       </constraints>
       <categoryLinks/>
@@ -14802,16 +14937,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="9654-1027-5976-992d" name="* No Psychic Power Selected *" hidden="false" targetId="b5e0-6bf3-54ef-19ce" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
     </selectionEntryGroup>
     <selectionEntryGroup id="8710-419d-9a5f-5f4c" name="Apothecary Weapon" hidden="false" collective="false" defaultSelectionEntryId="82b9-ddc7-9f3c-f185">
       <profiles/>
@@ -15282,11 +15408,18 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="set" field="e10c-652d-59c1-207d" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="38f4-615d-f35e-da9c" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9ef4-b14f-4255-f9a1" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2351-6b3d-1900-7e87" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e10c-652d-59c1-207d" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e10c-652d-59c1-207d" type="min"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -15296,7 +15429,23 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7b9-75a0-5700-eb0e" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c122-d85d-f519-81ae" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c701-7188-c97c-cce6" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="92eb-aba6-a177-dad3" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -15429,9 +15578,8 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0abf-b3fb-43c9-08d2" type="instanceOf"/>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e15c-3096-8468-aa26" type="instanceOf"/>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6ad2-bcea-a5bd-6da8" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0abf-b3fb-43c9-08d2" type="instanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -15452,7 +15600,7 @@
             <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="49d8-cabb-10de-2c95" name="Desroyer of Crys&apos;yllx" hidden="true" collective="false" type="upgrade">
+        <selectionEntry id="49d8-cabb-10de-2c95" name="Destroyer of Crys&apos;yllx" hidden="true" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -15888,6 +16036,85 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3c81-b1fa-9ad4-10d1" name="Melee Weapons" hidden="false" collective="false" defaultSelectionEntryId="5ee6-1624-1fd6-6c21">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a98d-4547-28e2-7d26" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afbd-c9aa-c05d-12c6" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5ee6-1624-1fd6-6c21" name="Power axe" hidden="false" targetId="3292-34e6-f679-d5b9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="89ee-0643-36ad-902a" name="Chainsword" hidden="false" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0d2b-db12-389c-a50f" name="Power fist" hidden="false" targetId="f122-3720-fa32-4215" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="79d6-005d-89a8-540c" name="Power maul" hidden="false" targetId="6ea7-1195-7144-438e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2cdf-7d72-3a1c-c42e" name="Power sword" hidden="false" targetId="bc9e-551d-9afb-78d5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6341-448d-c918-ed39" name="Power lance" hidden="false" targetId="ba8d-691a-6178-1a60" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6f79-c564-ebed-9cb9" name="Lightning Claw" hidden="false" targetId="90de-7b01-e401-888b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aad5-8af2-277c-1edd" name="Thunder hammer" hidden="false" targetId="0e57-eaf5-763f-9c45" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>

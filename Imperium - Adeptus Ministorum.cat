@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d124-b283-2ff7-beae" name="Imperium - Adepta Sororitas" book="Index: Imperium 2, Blackstone Fortress, Chapter Approved 2018" revision="51" battleScribeVersion="2.01" authorName="Jon Kissinger(Alphalas); CrusherJoe" authorContact="Gitter: @Alphalas, twitter: @kingoverlord Gitter: @CrusherJoe, twitter: @TheAwesomesauce" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="4ef1-b081-63ab-18f0" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d124-b283-2ff7-beae" name="Imperium - Adepta Sororitas" book="Index: Imperium 2, Blackstone Fortress, Chapter Approved 2018" revision="53" battleScribeVersion="2.01" authorName="Jon Kissinger(Alphalas); CrusherJoe" authorContact="Gitter: @Alphalas, twitter: @kingoverlord Gitter: @CrusherJoe, twitter: @TheAwesomesauce" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2298,7 +2298,7 @@
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="6cab-6780-2c7c-e101" hidden="false" targetId="2479a8f3-63b0-4d01-0a1f-673c73c5cb1f" type="rule">
+            <infoLink id="6cab-6780-2c7c-e101" name="Zealot" hidden="false" targetId="31cb-c230-b3fc-9096" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3059,7 +3059,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="2243-a4bf-11d0-bf4f" hidden="false" targetId="2479a8f3-63b0-4d01-0a1f-673c73c5cb1f" type="rule">
+        <infoLink id="2243-a4bf-11d0-bf4f" name="Zealot" hidden="false" targetId="31cb-c230-b3fc-9096" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3296,7 +3296,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="826e-fc32-b3b1-adb5" hidden="false" targetId="2479a8f3-63b0-4d01-0a1f-673c73c5cb1f" type="rule">
+        <infoLink id="826e-fc32-b3b1-adb5" name="Zealot" hidden="false" targetId="31cb-c230-b3fc-9096" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3730,7 +3730,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="2416-35a7-9bdd-fc35" name="New InfoLink" hidden="false" targetId="2479a8f3-63b0-4d01-0a1f-673c73c5cb1f" type="rule">
+        <infoLink id="2416-35a7-9bdd-fc35" name="Zealot" hidden="false" targetId="31cb-c230-b3fc-9096" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3902,7 +3902,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="36c9-f939-2155-5fce" name="New InfoLink" hidden="false" targetId="2479a8f3-63b0-4d01-0a1f-673c73c5cb1f" type="rule">
+        <infoLink id="36c9-f939-2155-5fce" name="Zealot" hidden="false" targetId="31cb-c230-b3fc-9096" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4075,7 +4075,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="9a60-2f29-dbb6-2d56" name="New InfoLink" hidden="false" targetId="2479a8f3-63b0-4d01-0a1f-673c73c5cb1f" type="rule">
+        <infoLink id="9a60-2f29-dbb6-2d56" name="Zealot" hidden="false" targetId="31cb-c230-b3fc-9096" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4948,22 +4948,13 @@
     </selectionEntry>
     <selectionEntry id="caaf-8409-e170-3286" name="Celestine" book="Index: Imperium 2" page="96" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="2ba1-f4eb-7545-56da" name="Beacon of Faith" book="Index: Imperium 2" page="96" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="All friendly ADEPTA SORORITAS units within 6&quot; of Celestine add 1 to their Shield of Faith invulnerable saves. All friendly ADEPTUS MINISTORUM and ASTRA MILITARUM units that are within 6&quot; of Celestine gain a 6+ invulnerable save"/>
-          </characteristics>
-        </profile>
         <profile id="4452-0def-d916-ec99" name="Healing Tears" book="Index: Imperium 2" page="96" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the start of your Movement phase, you can pick a friendly GEMINAE SUPERIA unit within 3&quot; of Celestine that has suffered one or more wounds, or a casualty. If you do,a single model in that unit regains all her lost wounds. If the unit contains no wounded models, then a single slain GEMINAE SUPERIAis instead returned to the unit with all lost wounds regained (this model is set up in unit coherency and cannot be set up within 1&quot; of any enemy models – if it is not possible to place her, she is not returned to the unit)."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the start of your Movement phase, you can pick a friendly GEMINAE SUPERIA unit within 3&quot; of Celestine that has suffered one or more wounds, or a casualty. If you do, a single model in that unit regains all her lost wounds. If the unit contains no wounded models, then a single slain GEMINAE SUPERIA is instead returned to the unit with all lost wounds regained (this model is set up in unit coherency and cannot be set up within 1&quot; of any enemy models – if it is not possible to place her, she is not returned to the unit)."/>
           </characteristics>
         </profile>
         <profile id="dced-e43c-b601-5a7e" name="Saintly Blessing" book="Index: Imperium 2" page="96" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
@@ -4972,7 +4963,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The invulnerable save friendly ADEPTA SORORITAS units receive from the Shield of Faith ability is improved by 1 whilst they are within 6&quot; of Celestine (it is improved by 2 instead if it is a GEMINAE SUPERIAunit), to a maximum of 3+. In addition, friendly ADEPTUS MINISTORUMand ASTRA MILITARUMunits have a 6+ invulnerable save whilst they are within 6&quot; of Celestine."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The invulnerable save friendly ADEPTA SORORITAS units receive from the Shield of Faith ability is improved by 1 whilst they are within 6&quot; of Celestine (it is improved by 2 instead if it is a GEMINAE SUPERIA unit), to a maximum of 3+. In addition, friendly ADEPTUS MINISTORUM and ASTRA MILITARUM units have a 6+ invulnerable save whilst they are within 6&quot; of Celestine."/>
           </characteristics>
         </profile>
         <profile id="1d06-989d-2988-b3e7" name="Armour of Saint Katherine" book="Index: Imperium 2" page="96" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -7445,15 +7436,6 @@
             <characteristic name="Save" characteristicTypeId="c0df-df94-abd7-e8d3" value="6+"/>
           </characteristics>
         </profile>
-        <profile id="4830-8436-6eb6-e81c" name="Zealot" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="You can re-roll failed hit rolls for Taddeus the Purifier in a turn in which he made a charge move, performed a Heroic Intervention, or was charged by an enemy unit."/>
-          </characteristics>
-        </profile>
         <profile id="cdde-8bd0-a252-513d" name="Rosarius" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
           <profiles/>
           <rules/>
@@ -7474,7 +7456,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="8c4f-7cf9-cc01-6abd" name="Zealot" hidden="false" targetId="31cb-c230-b3fc-9096" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="85bb-e0f5-7bc1-04d9" type="max"/>
@@ -7807,7 +7796,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="4490-653d-9e17-4661" hidden="false" targetId="2479a8f3-63b0-4d01-0a1f-673c73c5cb1f" type="rule">
+        <infoLink id="4490-653d-9e17-4661" name="Zealot" hidden="false" targetId="31cb-c230-b3fc-9096" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8389,7 +8378,7 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="0630-1787-a456-78e4" name="1 additional Relic of the Ecclesiarchy, -1 CP" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="0630-1787-a456-78e4" name="1 additional Relic of the Ecclesiarchy" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8412,10 +8401,10 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
-                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="1.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="-1.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="cc8b-300a-d365-bec2" name="2 additional Relic of the Ecclesiarchy, -3 CP" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="cc8b-300a-d365-bec2" name="2 additional Relic of the Ecclesiarchy" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8438,7 +8427,7 @@
               <costs>
                 <cost name=" PL" costTypeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="pts" costTypeId="points" value="0.0"/>
-                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="3.0"/>
+                <cost name="CP" costTypeId="2d3b-b544-ad49-fb75" value="-3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9482,7 +9471,7 @@ Use this Act of Faith at the start of the Morale phase. If successful, the selec
       <modifiers/>
       <description>Models in this unit have a 6+ invulnerable save. In addition, units with this ability can attempt to deny one psychic power in each enemy Psychic phase in the same manner as a PSYKER. When they do so, first select a model in the unit – measure range, visibility, etc. from this model. When making this attempt, only roll a single D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.</description>
     </rule>
-    <rule id="2479a8f3-63b0-4d01-0a1f-673c73c5cb1f" name="Zealot" book="Index: Imperium 2" page="90" hidden="false">
+    <rule id="31cb-c230-b3fc-9096" name="Zealot" book="Index: Imperium 2" page="90" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -9670,6 +9659,15 @@ Use this Act of Faith at the start of the Morale phase. If successful, the selec
       <modifiers/>
       <characteristics>
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If your army is Battle-forged, this unit does not take up slots in a Detachment that includes any MINISTORUMPRIESTS."/>
+      </characteristics>
+    </profile>
+    <profile id="8b5e-e72d-a540-6381" name="Beacon of Faith (Index)" book="Index: Imperium 2" page="96" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="All friendly ADEPTA SORORITAS units within 6&quot; of Celestine add 1 to their Shield of Faith invulnerable saves. All friendly ADEPTUS MINISTORUM and ASTRA MILITARUM units that are within 6&quot; of Celestine gain a 6+ invulnerable save"/>
       </characteristics>
     </profile>
   </sharedProfiles>
